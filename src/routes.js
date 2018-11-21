@@ -9,8 +9,21 @@ const db = new JsonDB("myDataBase", true, true);
  */
 
 router.get('/', function (req, res) {
-  res.send("Hello World");
+  res.send("Hello World wildou");
 });
+
+router.get('/houses', function (req, res) {
+  const houses = [
+    'Serpentard',
+    'Griffondor',
+    'Serdaigle',
+    'Pouffsoufle',
+    'wildcodeschool',
+    'wildcodeschool'
+  ]
+  res.json({houses});
+});
+
 
 router.get('/item', function (req, res) {
   const data = db.getData("/item");
