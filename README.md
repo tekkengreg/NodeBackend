@@ -29,3 +29,10 @@ npm start
 Database
 --------
 You can get API info here: https://www.npmjs.com/package/node-json-db
+
+Backend Sorting Hat
+-------------------
+
+```sh
+git checkout sortinghatbackend
+```
