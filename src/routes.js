@@ -3,7 +3,6 @@ const router = express.Router();
 const JsonDB = require('node-json-db');
 const db = new JsonDB("myDataBase", true, true);
 
-
 /**
  * BEGIN MODIFICATIONS
  */

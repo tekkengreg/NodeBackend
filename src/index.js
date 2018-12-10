@@ -17,7 +17,12 @@ app.use((req, res, next) => {
   next();
 });
 
-app.use('/', require('./routes'));
+app.get("/", (req,res)=> res.send("hello world"))
+app.use('/item', require('./routes'));
+app.use('/paint', require('./paintRoutes'));
+
+
+app.use('/paint2', require('./paintRoutes2'));
 
 
 
@@ -29,6 +34,8 @@ app.use(function (req, res, next) {
 });
 
 
-let server = app.listen(process.env.PORT || 5000, function () {
+const server = app.listen(process.env.PORT || 5000, function () {
   console.log('Listening on port ' + server.address().port);
 });
+
+module.exports=server;
