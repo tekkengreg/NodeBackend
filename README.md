@@ -12,8 +12,8 @@ To run
 --------
 ```sh
 # clone it
-git clone https://github.com/grpetit/Hackathon1Lyon0918.git
-cd Hackathon1Lyon0918
+git clone https://github.com/grpetit/NodeBackend.git
+cd NodeBackend
 
 # Make it your own
 rm -rf .git && git init && npm init
@@ -36,3 +36,7 @@ Backend Sorting Hat
 ```sh
 git checkout sortinghatbackend
 ```
+
+Paint_SQL
+=========
+branche `paint_sql`
