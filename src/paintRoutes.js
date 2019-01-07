@@ -9,8 +9,16 @@ router.get('/colors', (req, res)=>{
 })
 
 router.get('/shapes', (req, res)=>{
+
     db.all('SELECT * FROM primitive_shape', (err, rows)=>{
         res.json(rows);
+    })
+})
+
+router.post('/shapes', (req, res)=>{
+    db.run('INSERT INTO shapes SET ?', req.body, (err)=>{
+        if(err) res.status(500).send(err)
+        res.end();
     })
 })
 
