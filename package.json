@@ -35,8 +35,12 @@
     "compression": "^1.5.2",
     "cors": "^2.7.1",
     "express": "^4.13.3",
+    "jsonwebtoken": "^8.5.1",
     "morgan": "^1.8.0",
     "node-json-db": "^0.9.1",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
     "resource-router-middleware": "^0.6.0"
   },
   "devDependencies": {
