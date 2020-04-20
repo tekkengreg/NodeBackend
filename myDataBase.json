@@ -1,3 +1,9 @@
 {
-    "item": {}
+    "item": {
+        "1587376225925": {
+            "displayName": "Gregory Petit",
+            "email": "gregory.petit@apside.com",
+            "password": "apside"
+        }
+    }
 }
