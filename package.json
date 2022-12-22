@@ -35,7 +35,7 @@
     "compression": "^1.5.2",
     "cors": "^2.8.5",
     "express": "^4.13.3",
-    "jsonwebtoken": "^8.5.1",
+    "jsonwebtoken": "^9.0.0",
     "morgan": "^1.8.0",
     "node-json-db": "^0.9.1",
     "passport": "^0.4.0",
